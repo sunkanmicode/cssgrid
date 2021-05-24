@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.green{
+    height: 50px;
+    background: repeating-linear-gradient(green, yellow);
+    background-color: green;
+   
+}
+.red{
+   background: radial-gradient(red, #333);
+}
+.blue{
+    background-color: blue;
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.9em;
+   
+}
+li{
+    padding: 20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.push{
+    margin-left: auto;  
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.project{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+    
+    
+}
+.box > img{
+    width: 100%;
+}
+.box{
+    background: linear-gradient(#4444, #ffff);
+    padding: 130px;
+    margin: 20px;
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background: #333;
+    color: #fff;
+    
+}
